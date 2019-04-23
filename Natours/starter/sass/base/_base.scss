@@ -1,0 +1,18 @@
+/* You can apply the universal styles to all after and before pseudo elements as well.*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  // Root font size is placed in the html selector
+  // This defines what 1 rem is
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}

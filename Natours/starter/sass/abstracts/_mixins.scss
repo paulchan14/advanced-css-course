@@ -1,0 +1,7 @@
+@mixin clearfix {
+  &::after {
+    content: ""; //There needs to be a content prop, even if blank
+    display: table;
+    clear: both;
+  }
+}
