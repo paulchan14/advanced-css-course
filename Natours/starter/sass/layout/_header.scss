@@ -10,6 +10,7 @@
   /*whatever the width of the element, it will try to fit the image into it*/
   background-position: top;
 
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   /* top-left, top-right (x= 100% the width of the element), bottom-right, bottom-left */
   position: relative;
